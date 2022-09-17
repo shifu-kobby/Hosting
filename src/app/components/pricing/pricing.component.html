@@ -1,0 +1,19 @@
+<div class="pricing">
+  <h2 class="pricingLevel">{{name}}</h2>
+
+  <div class="pricingAmount">
+    <span class="pricingAmountPrice">{{price}}</span>
+    <span class="pricingFrequency">/month</span>
+  </div>
+
+  <div class="pricingPackage" *ngFor="let item of benefits">
+    <div class="pricingPackageItems">
+      <mat-icon *ngIf=item.included class="pricingPackageItemsIncluded">check_circle</mat-icon>
+      <mat-icon *ngIf=!item.included class="pricingPackageItemsExcluded">cancel</mat-icon>
+      <div>{{item.benefit}}</div>
+    </div>
+  </div>
+
+  <button mat-button class="pricingButton">Get</button>
+
+</div>

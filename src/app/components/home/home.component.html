@@ -1,13 +1,27 @@
+
 <div class="home">
-  <div class="homeWelcomeInfo">
-    <h1 class="homeHeader">Let's Get Hosting For Free</h1>
-    <h3 class="homeSubHeader">We have amazing solutions right here for you. Check it out!</h3>
-    <div class="homeButtons">
-      <button mat-button class="homeSignUp">Sign Up</button>
-      <button mat-button class="homeSignIn">Sign In</button>
+  <div class="homeBanner">
+    <div class="homeBannerWelcomeInfo">
+      <h1 class="homeBannerHeader">Robust Cloud Computing Solutions</h1>
+      <h3 class="homeBannerSubHeader">Hosting has the cloud computing services you need, with predictable pricing,
+        robust documentation, and scalability to support your Business growth at any stage.</h3>
+      <div class="homeBannerButtons">
+        <button mat-button class="homeBannerSignUp">Sign Up</button>
+        <button mat-button class="homeBannerSignIn">Sign In</button>
+      </div>
+    </div>
+    <div class="homeBannerWelcomeIllustration">
+      <svg-icon src="assets/code_automation.svg" [svgStyle]="{ 'width.px':800 }"></svg-icon>
     </div>
   </div>
-  <div class="homeWelcomeIllustration">
-    <svg-icon src="assets/code_automation.svg" [svgStyle]="{ 'width.px':800 }"></svg-icon>
+
+  <div class="homeComplexity">
+    <h2 class="homeComplexityHeader">Do More With Less Complexity</h2>
+    <h3 class="homeComplexitySubHeader">Our modern UI, CLI and Documentation helps you focus on what's important</h3>
+    <a href="" class="homeProductsLink">Explore Our Products</a>
+  </div>
+
+  <div class="homePricing" *ngFor="let package of packages">
+    <app-pricing [name]=package.name [price]=package.price [benefits]=package.benefits></app-pricing>
   </div>
 </div>

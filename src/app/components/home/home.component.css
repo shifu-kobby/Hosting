@@ -1,23 +1,28 @@
 .home {
+  margin-top: 50px;
+  height: 1300px;
+}
+
+.homeBanner {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.homeWelcomeInfo {
+.homeBannerWelcomeInfo {
   max-width: 400px;
 }
 
-.homeHeader {
+.homeBannerHeader {
   color: #C34A36;
 }
 
-.homeSubHeader {
+.homeBannerSubHeader {
   color: #4B4453;
 }
 
-.homeButtons {
+.homeBannerButtons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,17 +30,43 @@
   width: 320px;
 }
 
-.homeSignUp {
+.homeBannerSignUp {
   color: white;
   background-color: #845EC2;
   border-radius: 50px;
   width: 150px;
 }
 
-.homeSignIn {
+.homeBannerSignIn {
   color: #C34A36;
   background-color: white;
   border: 2px solid #C34A36;
   border-radius: 50px;
   width: 150px;
+}
+
+.homeComplexity {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.homeComplexityHeader {
+  color: #845EC2;
+}
+
+.homeComplexitySubHeader {
+  color: #B0A8B9;
+}
+
+.homeProductsLink {
+  text-decoration: none;
+  color: #845EC2;
+  font-size: large;
+}
+
+.homePricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
 }

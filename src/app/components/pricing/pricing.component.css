@@ -1,0 +1,52 @@
+.pricing {
+  background-color: white;
+  min-height: fit-content;
+  box-shadow: 3px 3px 2px 0px rgba(75, 68, 83, 1);
+  width: 300px;
+  min-height: 300px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.pricing:hover {
+  box-shadow: 6px 6px 4px 0px rgba(195, 74, 54, 1);;
+}
+
+.pricingLevel {
+  color: #C34A36;
+}
+
+.pricingAmountPrice {
+  color: #845EC2;
+  font-size: 40px;
+}
+.pricingFrequency {
+  color: #B0A8B9;
+}
+
+.pricingPackage {
+  margin-top: 10px;
+}
+
+.pricingPackageItems {
+  display: flex;
+  margin-left: 10px;
+}
+
+.pricingPackageItemsIncluded {
+  margin-right: 10px;
+  color: green;
+}
+
+.pricingPackageItemsExcluded {
+  margin-right: 10px;
+  color: red;
+}
+
+.pricingButton {
+  color: white;
+  background-color: #845EC2;
+  border-radius: 50px;
+  width: 150px;
+  margin-top: 20px;
+}
