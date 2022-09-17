@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.navLogo {
+  color: #845EC2;
+  margin-left: 20px;
+}
+
+.navLinks {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navLink {
+  text-decoration: None
+}

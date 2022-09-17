@@ -1,0 +1,41 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.homeWelcomeInfo {
+  max-width: 400px;
+}
+
+.homeHeader {
+  color: #C34A36;
+}
+
+.homeSubHeader {
+  color: #4B4453;
+}
+
+.homeButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+}
+
+.homeSignUp {
+  color: white;
+  background-color: #845EC2;
+  border-radius: 50px;
+  width: 150px;
+}
+
+.homeSignIn {
+  color: #C34A36;
+  background-color: white;
+  border: 2px solid #C34A36;
+  border-radius: 50px;
+  width: 150px;
+}
