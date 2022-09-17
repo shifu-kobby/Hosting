@@ -10,7 +10,7 @@
         <button mat-button class="homeBannerSignIn">Sign In</button>
       </div>
     </div>
-    <div class="homeBannerWelcomeIllustration">
+    <div>
       <svg-icon src="assets/code_automation.svg" [svgStyle]="{ 'width.px':800 }"></svg-icon>
     </div>
   </div>
@@ -21,7 +21,13 @@
     <a href="" class="homeProductsLink">Explore Our Products</a>
   </div>
 
-  <div class="homePricing" *ngFor="let package of packages">
-    <app-pricing [name]=package.name [price]=package.price [benefits]=package.benefits></app-pricing>
+  <!-- <div class="homeCode">
+    <svg-icon src="assets/html_code.svg" [svgStyle]="{'width.px':500}"></svg-icon>
+  </div> -->
+
+  <div class="homePricing">
+    <div *ngFor="let package of packages">
+      <app-pricing [name]=package.name [price]=package.price [benefits]=package.benefits></app-pricing>
+    </div>
   </div>
 </div>

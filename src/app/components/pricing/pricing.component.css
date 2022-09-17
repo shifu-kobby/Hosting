@@ -9,7 +9,7 @@
 }
 
 .pricing:hover {
-  box-shadow: 6px 6px 4px 0px rgba(195, 74, 54, 1);;
+  box-shadow: 6px 6px 4px 0px rgba(132, 94, 194, 1);
 }
 
 .pricingLevel {
@@ -48,5 +48,5 @@
   background-color: #845EC2;
   border-radius: 50px;
   width: 150px;
-  margin-top: 20px;
+  margin: 20px;
 }
