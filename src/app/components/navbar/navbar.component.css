@@ -19,11 +19,17 @@
 }
 
 .nav > div {
-  width: 400px;
+  width: 600px;
   display: flex;
   justify-content: space-evenly;
 }
 
 .nav > div > a {
-  text-decoration: None
+  text-decoration: none;
+  color: #B0A8B9;
+}
+
+.nav >div > a:hover {
+  color: #845EC2;
+  translate: 0px -5px;
 }

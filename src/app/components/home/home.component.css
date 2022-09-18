@@ -34,11 +34,25 @@
   width: 800px;
 }
 
+.homeBannerIllustration:hover {
+  animation-name: stretch;
+  animation-duration: 2.0s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
 .homeBannerSignUp {
   color: white;
   background-color: #845EC2;
   border-radius: 50px;
   width: 150px;
+}
+
+.homeBannerSignUp:hover {
+  background-color: #C34A36;
+  translate: 0px -5px;
 }
 
 .homeBannerSignIn {
@@ -49,6 +63,12 @@
   width: 150px;
 }
 
+.homeBannerSignIn:hover {
+  border: 2px solid #845EC2;
+  color: #845EC2;
+  translate: 0px -5px;
+}
+
 .homeComplexity {
   margin-top: 50px;
   text-align: center;
@@ -56,6 +76,21 @@
 
 .homeComplexity > h2 {
   color: #845EC2;
+}
+
+.homeComplexity > h2:hover {
+  animation-name: stretch;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  100% {
+      transform: scale(1.1);
+  }
 }
 
 .homeComplexity > h3 {
@@ -88,6 +123,8 @@
   color: white;
   min-height: 400px;
   margin-top: 50px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 .homeLinks > div {
@@ -109,6 +146,6 @@
   text-align: center;
 }
 
-.home > div > img {
+.homeHtmlCode > img {
   width: 500px;
 }

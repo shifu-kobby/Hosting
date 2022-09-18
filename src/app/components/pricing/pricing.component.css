@@ -10,6 +10,7 @@
 
 .pricing:hover {
   box-shadow: 6px 6px 4px 0px rgba(132, 94, 194, 1);
+  translate: 0px -20px;
 }
 
 .pricing > h2 {
