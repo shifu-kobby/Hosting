@@ -1,6 +1,6 @@
 .home {
   margin-top: 50px;
-  height: 2000px;
+  min-height: 1500px;
 }
 
 .homeBanner {
@@ -75,4 +75,29 @@
   justify-content: space-evenly;
   align-items: center;
   margin-top: 50px;
+}
+
+.homeLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #845EC2;
+  color: white;
+  min-height: 400px;
+  margin-top: 50px;
+}
+
+.homeLinks > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.homeLinks > div > h2 {
+  margin-bottom: 40px;
+}
+
+.homeLinks > div > a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
 }
