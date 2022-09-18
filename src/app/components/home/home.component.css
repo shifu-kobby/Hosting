@@ -14,15 +14,15 @@
   max-width: 400px;
 }
 
-.homeBannerHeader {
+.homeBannerWelcomeInfo > h1 {
   color: #C34A36;
 }
 
-.homeBannerSubHeader {
+.homeBannerWelcomeInfo > h3 {
   color: #4B4453;
 }
 
-.homeBannerButtons {
+.homeBannerWelcomeInfo > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -50,11 +50,11 @@
   text-align: center;
 }
 
-.homeComplexityHeader {
+.homeComplexity > h2 {
   color: #845EC2;
 }
 
-.homeComplexitySubHeader {
+.homeComplexity > h3 {
   color: #B0A8B9;
 }
 
@@ -63,7 +63,7 @@
   margin-top: 50px;
 }
 
-.homeProductsLink {
+.homeComplexity > a {
   text-decoration: none;
   color: #845EC2;
   font-size: large;

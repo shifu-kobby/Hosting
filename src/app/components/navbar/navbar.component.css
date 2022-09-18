@@ -13,17 +13,17 @@
   transition: all 0.5s;
 }
 
-.navLogo {
+.nav > h2 {
   color: #845EC2;
   margin-left: 20px;
 }
 
-.navLinks {
+.nav > div {
   width: 400px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.navLink {
+.nav > div > a {
   text-decoration: None
 }
