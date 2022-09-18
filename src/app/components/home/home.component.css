@@ -30,6 +30,10 @@
   width: 320px;
 }
 
+.homeBannerIllustration {
+  width: 800px;
+}
+
 .homeBannerSignUp {
   color: white;
   background-color: #845EC2;
@@ -46,7 +50,7 @@
 }
 
 .homeComplexity {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -74,7 +78,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 50px;
 }
 
 .homeLinks {
@@ -100,4 +103,12 @@
   text-decoration: none;
   color: white;
   margin-bottom: 20px;
+}
+
+.homeHtmlCode {
+  text-align: center;
+}
+
+.home > div > img {
+  width: 500px;
 }
